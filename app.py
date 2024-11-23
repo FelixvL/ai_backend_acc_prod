@@ -12,4 +12,4 @@ app.register_blueprint(adventure, url_prefix='/adventure')
 
 @app.route("/")
 def helloWorld():
-  return "Hello, Versie 2!"
+  return "Hello, Versie 3!"
